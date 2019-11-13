@@ -85,3 +85,23 @@ h6 {
   right: 0;
   top: 142px;
 }
+
+.video {
+  position: absolute;
+  left: 0;
+  bottom: 166px;
+  width: 400px;
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/video.png");
+}
+
+.video:after {
+  content: "";
+  display: block;
+  background: url("../img/play.svg");
+  width: 65px;
+  height: 65px;
+}
