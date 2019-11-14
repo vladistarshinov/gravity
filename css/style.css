@@ -230,3 +230,40 @@ h6 {
   bottom: 0;
   box-shadow: 30px 80px 130px rgba(0, 0, 0, 0.25);
 }
+
+.result {
+  padding-top: 219px;
+}
+
+.easy {
+  margin-left: 65px;
+  margin-top: 30px;
+}
+
+.easy__title {
+  margin-bottom: 30px;
+}
+
+.easy__text {
+  margin-bottom: 52px;
+}
+
+.easy__point {
+  padding-left: 83px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+
+.easy__point_first {
+  background: url("../img/icon100.svg") no-repeat left center;
+}
+
+.easy__point_second {
+  background: url("../img/bag.svg") no-repeat left center;
+}
