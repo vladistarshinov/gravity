@@ -33,6 +33,13 @@ h6 {
   padding: 0;
 }
 
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 22px;
+}
 .btn {
   background: #4737ff;
   color: #fff;
@@ -172,12 +179,12 @@ h6 {
   margin-left: 37px;
 }
 
-.owl-carousel {
+.works-carousel {
   margin-top: 99px;
 }
 
-.owl-carousel .item,
-.owl-item {
+.works-carousel .item,
+.works-carousel .owl-item {
   position: relative;
   width: 825px !important;
 }
@@ -191,11 +198,11 @@ h6 {
   margin: 0;
 }
 
-.owl-nav {
+.works-carousel .owl-nav {
   margin-top: 50px !important;
 }
 
-.owl-carousel .owl-prev {
+.works-carousel .owl-prev {
   margin-right: 25px !important;
 }
 
@@ -339,4 +346,37 @@ https://denis-creative.com/jquery-tabs/ */
 }
 .tabs__content.active {
   display: flex !important; /* по умолчанию показываем нужный блок */
+}
+
+.works-cont__btn {
+  margin-right: 0 !important;
+}
+
+.testimonials {
+  padding-top: 248px;
+}
+
+.contributor {
+  margin-top: 121px;
+}
+
+.contributor__title {
+  margin-bottom: 10px;
+}
+
+.contributor__desc {
+}
+
+.cont-photo {
+  display: block;
+}
+
+.contributor-carousel .owl-nav {
+  display: flex;
+  margin-top: -50px;
+  position: relative;
+}
+
+.contributor-carousel .owl-prev {
+  margin-right: 25px;
 }
