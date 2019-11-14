@@ -161,12 +161,18 @@ h6 {
 .serv-list {
   color: #8d8d8d;
   list-style-type: none;
+  margin-top: 67px;
 }
 
-.serv-list__item {
+.serv-list_item {
   margin-bottom: 20px;
 }
 
 .serv-list__left {
   margin-left: 37px;
+}
+
+.owl-carousel .item,
+.owl-item {
+  width: 825px !important;
 }
